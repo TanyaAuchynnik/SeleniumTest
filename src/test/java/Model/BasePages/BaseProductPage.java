@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-public class BaseProductPage extends BaseHeaderPage{
+public abstract class BaseProductPage extends BaseHeaderPage{
   @FindBy(xpath = "//span[contains(text(),'Add to bag')]")
   private WebElement buttonAddToBag;
 

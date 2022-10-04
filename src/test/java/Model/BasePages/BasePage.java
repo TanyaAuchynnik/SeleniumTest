@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
-public class BasePage {
+public abstract class BasePage {
   private WebDriver driver;
   private WebDriverWait wait;
   private Actions actions;

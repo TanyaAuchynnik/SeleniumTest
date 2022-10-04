@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-public class BaseHeaderPage extends BasePage{
+public abstract class BaseHeaderPage extends BasePage{
   @FindBy(name = "q")
   private WebElement inputSearch;
 
